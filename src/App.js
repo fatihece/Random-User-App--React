@@ -7,23 +7,6 @@ import { useState,useEffect } from 'react';
 const App = () => {
   const [refresh, setRefresh] = useState(true);
   
-//   useEffect(() => {
-//     axios
-//     .get("https://randomuser.me/api/").then(res => setImage(res.data.results[0].picture.large))
-//     axios  
-//     .get("https://randomuser.me/api/").then(res => setEmail(res.data.results[0].email))
-//     axios  
-//     .get("https://randomuser.me/api/").then(res => setCell(res.data.results[0].cell))
-//     axios  
-//     .get("https://randomuser.me/api/").then(res => setName(res.data.results[0].name.first))
-//     axios  
-//     .get("https://randomuser.me/api/").then(res => setCountry(res.data.results[0].location.country))
-//     axios  
-//     .get("https://randomuser.me/api/").then(res => setAge(res.data.results[0].dob.age))
-//     axios  
-//     .get("https://randomuser.me/api/").then(res => setDate(res.data.results[0].registered.date))
-// },[refresh])
-
   const onButtonClick = () => {
       setRefresh(!refresh)
     }
