@@ -10,25 +10,25 @@ const Card = (props) => {
         <div className="container mt-5">
             <div className="info-box"> 
                 <div className="box">
-                    <img className="avatar" src={props.image}></img>    
-                    <span><h3>{props.name }</h3></span>
+                    <img className="avatar" src={props.image} />   
+                    <h3>{props.name}</h3>
                 </div>
                 <div className="box">
-                    <img height={40} width={40} src={email} alt="email"></img>   
-                    <span><p>{props.email }</p></span>
+                    <img height={40} width={40} src={email} alt="email"/>
+                    <p>{props.email}</p>
                 </div>
                 <div className="box">
-                    <img height={40} width={40} src={phone}></img>
-                    <span><p>{props.cell }</p></span>
+                    <img height={40} width={40} src={phone} alt="phone"/>
+                    <p>{props.cell}</p>
                 </div>
                 <div className="box">
-                    <img height={40} width={40} src={location}></img>
-                    <span><p>{ props.country}</p></span>
+                    <img height={40} width={40} src={location} alt="location"/>
+                    <p>{ props.country}</p>
                 </div>  
             </div>
             <div className="footer">
-                <p>{props.age}</p>
-                <p>Register Date:12-12-2037</p>
+                <p>{`Age: ${props.age}`}</p>
+                <p>{`Register Date: ${props.date}`}</p>
             </div>       
         </div>
     )

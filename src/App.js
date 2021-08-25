@@ -11,6 +11,8 @@ const App = () => {
   const [name, setName] = useState("");
   const [country, setCountry] = useState("");
   const [age, setAge] = useState("");
+  const [date, setDate] = useState("");
+  const[refresh, setRefresh] = useState(true)
   
 
 
@@ -30,14 +32,19 @@ const App = () => {
  
     axios  
     .get("https://randomuser.me/api/").then(res => setAge(res.data.results[0].dob.age))
-})
+    axios  
+    .get("https://randomuser.me/api/").then(res => setDate(res.data.results[0].registered.date))
+},[refresh])
 
-    
+  const onButtonClick = () => {
+      setRefresh(!refresh)
+    }
+
 
   return (
     <div className="App">
-      <Card image={image} email={email} cell={cell} name={name} country={country} age={age}/>
-      <Button />
+      <Card image={image} email={email} cell={cell} name={name} country={country} age={age} date={date}/>
+      <Button onClick={onButtonClick}/>
 
     </div>
   );
