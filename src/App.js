@@ -44,7 +44,7 @@ const App = () => {
   return (
     <div className="App">
       <Card image={image} email={email} cell={cell} name={name} country={country} age={age} date={date}/>
-      <Button onClick={onButtonClick}/>
+      <Button onButtonClick={onButtonClick}/>
 
     </div>
   );
