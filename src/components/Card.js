@@ -23,7 +23,7 @@ const Card = (props) => {
                 </div>
                 <div className="box">
                     <img height={40} width={40} src={location} alt="location"/>
-                    <p>{ props.country}</p>
+                    <p>{props.city} / {props.country}</p>
                 </div>  
             </div>
             <div className="footer">

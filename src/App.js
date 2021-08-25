@@ -29,6 +29,7 @@ console.log(item)
         cell={item.results[0].phone}
         name={item.results[0].name.first}
         country={item.results[0].location.country}
+        city={item.results[0].location.city}
         age={item.results[0].dob.age}
         date={item.results[0].registered.date.slice(0, 10)} />
     
