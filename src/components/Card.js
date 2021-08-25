@@ -11,7 +11,7 @@ const Card = (props) => {
             <div className="info-box"> 
                 <div className="box">
                     <img className="avatar" src={props.image} />   
-                    <h3>{props.name}</h3>
+                    <h3>{props.title} {props.name} { props.last}</h3>
                 </div>
                 <div className="box">
                     <img height={40} width={40} src={email} alt="email"/>
