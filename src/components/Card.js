@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
+import axios from "axios";
+import Button from './Button';
 import "./Card.css"
 import email from "../assets/email.svg"
 import location from "../assets/location.svg"
 import phone from "../assets/phone.svg"
-import axios from "axios";
-import Button from './Button';
 
 const Card = () => {
     const [item, setItem] = useState("");
