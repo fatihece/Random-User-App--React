@@ -1,9 +1,9 @@
+import { useState, useEffect } from 'react';
 import "./Card.css"
 import email from "../assets/email.svg"
 import location from "../assets/location.svg"
 import phone from "../assets/phone.svg"
 import axios from "axios";
-import { useState, useEffect } from 'react';
 import Button from './Button';
 
 const Card = () => {
