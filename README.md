@@ -1,3 +1,27 @@
-https://myrandom-user-app.netlify.app/
+<h1 align="center">Welcome Random User App 🎉</h1>
 
-![random-user-app](https://user-images.githubusercontent.com/81515422/138594805-ef2c34db-c2f4-46cc-916d-b7faf31026bb.gif)
+### ✨ [Demo](https://myrandom-user-app.netlify.app/)
+
+  </br>
+<a href='https://myrandom-user-app.netlify.app/' target='_blank'>
+  <img src='https://user-images.githubusercontent.com/81515422/138594805-ef2c34db-c2f4-46cc-916d-b7faf31026bb.gif' width="1295" />
+</a>
+
+
+## Author
+
+👤 **Fatih Yürek**
+
+- LinkedIn: [@fatihyurek](https://www.linkedin.com/in/fatihyurek/)
+- Email: fatihenaz@gmail.com
+
+
+
+
+
+
+
+
+
+
+
